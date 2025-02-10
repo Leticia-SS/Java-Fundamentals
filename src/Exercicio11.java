@@ -19,7 +19,7 @@ public class Exercicio11 {
             x1 = -b / (2 * a);
             System.out.println("Raíz X: "+ x1);
         } else{
-            x1 = (-b + (int) + Math.sqrt(delta)) / (2 * a);
+            x1 = (-b + (int) Math.sqrt(delta)) / (2 * a);
             x2 = (-b + (int) - Math.sqrt(delta)) / (2 * a);
             System.out.println("Raizes: \nX1: " + x1 + "\nX2:" + x2);
         }
