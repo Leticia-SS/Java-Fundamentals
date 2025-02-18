@@ -5,8 +5,16 @@ public class Exercicio7 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Ditige um número");
-        String num = input.nextLine();
-
-
+        int num = input.nextInt();
+//        int original = num;
+        int original = Math.abs(num);
+        System.out.printf("Math.abs: ", original);
+        int counter = 0;
+        while(num > 0){
+            num /= 10;
+            counter++;
+        }
+        if (counter == 0) counter++;
+        System.out.printf("O número %d tem %d dígitos", original, counter);
     }
 }
