@@ -5,7 +5,7 @@ public class Strings1 {
         String strg1 = "Lara";
         String strg2 = "Stephanie";
         String text = "\n" + "Toda pessoa que já leu um número suficiente de livros," +
-                "\n" + "Como bem descreve Michèle Petit em "A arte de Ler ou "";
+                "\n" + "Como bem descreve Michèle Petit em 'A arte de Ler ou'" ;
 
        // Pattern Flyweight
        int a = 5;
