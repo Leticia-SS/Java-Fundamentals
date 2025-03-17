@@ -27,6 +27,8 @@ public class Main {
           Gerente g = new Gerente();
 //        Funcionario f2 = gerente;
 
+        // ABSTRACT :
+
 
 
 
